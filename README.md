@@ -27,7 +27,7 @@ Two datasets were combined and few values were randomly removed.
     12 - quality (score between 0 and 10)
 
 Plan
-1. Get dataset at Kaggle (API token )
+1. Get dataset at Kaggle (need API token )
 2. EDA 
 3. Data Cleaning & transformation 
 - Fill in missing values in variables.
