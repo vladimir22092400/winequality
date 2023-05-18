@@ -27,12 +27,13 @@ Output variable (based on sensory data):
 12 - quality (score between 0 and 10)
 
 Plan
-1. EDA 
-2. Data Cleaning & transformation 
+1. Get dataset at Kaggle (API token )
+2. EDA 
+3. Data Cleaning & transformation 
 - Fill in missing values in variables.
 - Replacing outliers by 05 and 95 quantiles.
 - MinMaxScaler
 - Removing unnecessary features
-3. Classification using Random Forest
+4. Classification using Random Forest
 - model with calculated (compute_class_weight sklearn) class weights
 - model with resampled by imblearn.over_sampling.SMOTE data
