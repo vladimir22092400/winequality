@@ -1,5 +1,7 @@
 # winequality
-Data Set Information:
+Kaggle Dataset: https://www.kaggle.com/datasets/rajyellow46/wine-quality
+
+Description:
 
 The dataset was downloaded from the UCI Machine Learning Repository.
 
@@ -9,4 +11,4 @@ These datasets can be viewed as classification or regression tasks. The classes 
 
 Two datasets were combined and few values were randomly removed.
 
-Link to the dataset: https://www.kaggle.com/datasets/rajyellow46/wine-quality
+Approach : EDA | Data Cleaning & transformation | Classification using Random Forest (2 models: model with calculated class weights and a model with resampled by imblearn.over_sampling.SMOTE data).
