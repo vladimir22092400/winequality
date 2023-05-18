@@ -11,4 +11,28 @@ These datasets can be viewed as classification or regression tasks. The classes 
 
 Two datasets were combined and few values were randomly removed.
 
-Approach : EDA | Data Cleaning & transformation | Classification using Random Forest (2 models: model with calculated class weights and a model with resampled by imblearn.over_sampling.SMOTE data).
+Input variables (based on physicochemical tests):
+1 - fixed acidity
+2 - volatile acidity
+3 - citric acid
+4 - residual sugar
+5 - chlorides
+6 - free sulfur dioxide
+7 - total sulfur dioxide
+8 - density
+9 - pH
+10 - sulphates
+11 - alcohol
+Output variable (based on sensory data):
+12 - quality (score between 0 and 10)
+
+Plan
+1. EDA 
+2. Data Cleaning & transformation 
+- Fill in missing values in variables.
+- Replacing outliers by 05 and 95 quantiles.
+- MinMaxScaler
+- Removing unnecessary features
+3. Classification using Random Forest
+- model with calculated (compute_class_weight sklearn) class weights
+- model with resampled by imblearn.over_sampling.SMOTE data
